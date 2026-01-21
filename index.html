@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swan Browser Update</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 18px 36px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+      background: linear-gradient(135deg, #1e90ff, #00bfff);
+      border-radius: 14px;
+      box-shadow: 0 0 25px rgba(0, 140, 255, 0.6);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    a.button:active {
+      transform: scale(0.95);
+      box-shadow: 0 0 15px rgba(0, 140, 255, 0.8);
+    }
+
+    @media (min-width: 768px) {
+      a.button {
+        font-size: 1.4rem;
+        padding: 20px 44px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a
+    class="button"
+    href="https://panagiotis-katziotis.github.io/swanproject"
+  >
+    Update Swan Browser
+  </a>
+</body>
+</html>
